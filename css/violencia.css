@@ -1,0 +1,68 @@
+
+body{
+    background-color: #EFEFEF;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+nav{
+    margin: 1%;
+}
+
+#menu{
+    display: flex;/*para colocar um item do lado do outro*/
+    justify-content: center;/*para colocar os itens no meio*/
+    margin-top: -8%;
+}
+
+#menu li{list-style-type: none;}/*serve para tirar a bolinha do menu*/
+
+#menu li a:hover{
+    background-color: rgb(255, 173, 173);
+    padding: 10px;
+}
+
+
+#menu li a{
+    font-family: 'Times New Roman', Times, serif ;/*fonte do botão do menu*/
+    font-size: 20px;
+    text-decoration: none ;/*retira o sublinhado do link*/
+    color: black;/*cor da fonte do menu*/
+    padding: 15px;/*padding para ficar com aspecto de botão*/
+    display: block;/*transforma o link que é uma tag de linha em uma tag de bloco*/
+    margin-left: 25px;
+    padding-right: 25px;
+}
+
+
+.logo{
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.banner{
+    margin-left: 19%;
+}
+.imagem {
+    float: left;
+    margin: 0;
+    margin-left:-5%;
+   padding: 10px;
+}
+.texto {
+    float: rigth;
+    margin: 0;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+   padding: 145px;
+
+}
+h1{
+font-family:'Times New Roman', serif;
+margin-top: 9%;
+margin-left: 45%;
+}

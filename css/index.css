@@ -1,0 +1,164 @@
+
+body{
+    background-color: #EFEFEF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+nav{
+    margin: 1%;
+}
+
+#menu{
+    display: flex;/*para colocar um item do lado do outro*/
+    justify-content: center;/*para colocar os itens no meio*/
+    margin-top: -8%;
+}
+
+#menu li{list-style-type: none;}/*serve para tirar a bolinha do menu*/
+
+#menu li a:hover{
+    background-color: rgb(255, 173, 173);
+    padding: 10px;
+}
+
+
+#menu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none ;/*retira o sublinhado do link*/
+    color: black;/*cor da fonte do menu*/
+    padding: 15px;/*padding para ficar com aspecto de botão*/
+    display: block;/*transforma o link que é uma tag de linha em uma tag de bloco*/
+    margin-left: 25px;
+    padding-right: 25px;
+}
+
+
+.logo{
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.banner{
+    margin-top: 10%;
+}
+
+h2{
+    text-align: center;
+    color: rgb(254, 99, 99);
+    margin-bottom: 5px;
+}
+
+.destaques{
+    display: flex;
+}
+
+.destaque1:hover{
+    padding: 5px;
+    opacity: 0.7;
+}
+
+.destaque2:hover{
+    padding: 5px;
+    opacity: 0.7;
+}
+
+.destaque3:hover{
+    padding: 5px;
+    opacity: 0.7;
+
+}
+
+.lei-texto{
+    font-size: 25px;
+    margin: 40px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    color: #d44e5a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+iframe{
+    margin-left: 9%;
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 0 30px;
+    width: 100%;
+    margin-top: 10% ;
+    background-color: #fff;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 75px;
+
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: 900;
+    color: #d44e5a;
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+
+.projeto-home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto-home > div {
+    margin: 30px;
+    max-width: 400px;
+    padding: 0 15px 45px 0;
+    position: relative;}
+
+.projeto-home > div h4{
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+p{
+    font-size: 23px;
+    line-height: 2;
+    margin: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projeto-home > div a {
+    bottom: 0;
+}
+
+.bnt{
+    font-family: 'Roboto',Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    box-sizing: border-box;
+    background-color: #d44e5a;
+    border-radius: 1000px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
